@@ -1,4 +1,6 @@
 ---
+//se ejecuta en el servidor <---
+
 import Layout from "@layouts/Layout.astro";
 
 import About from "@components/sections/About.astro";
@@ -17,13 +19,15 @@ import KeyboardManager from "@components/KeyboardManager.astro";
 	<Experience />
 	<Education />
 	<Projects />
-	<Skills />
+	<Skills /> 
   </main>
 
 
   <KeyboardManager />
 </Layout>
-
+<script>
+	//se ejecuta en el cliente <---
+</script>
 <style>
 	main{
 		padding: 4rem;
