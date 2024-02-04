@@ -124,3 +124,53 @@ All commands are run from the root of the project, from a terminal:
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
 ## 🔑 Licencia
+
+
+##Estructura del proyecto
+
+```
+└── 📁minimalist-portfolio
+    └── .gitignore
+    └── .prettierrc.mjs
+    └── 📁.vscode
+        └── extensions.json
+        └── launch.json
+    └── astro.config.mjs
+    └── cv.json
+    └── logo.png
+    └── package.json
+    └── pnpm-lock.yaml
+    └── portada.png
+    └── 📁public
+        └── favicon.svg
+        └── me.jpg
+        └── victoria-de-angelis.jpg
+        └── victoria-de-angelis1.png
+    └── README.md
+    └── 📁src
+        └── 📁components
+            └── KeyboardManager.astro
+            └── Section.astro
+            └── 📁sections
+                └── About.astro
+                └── Education.astro
+                └── Experience.astro
+                └── Hero.astro
+                └── Projects.astro
+                └── Skills.astro
+        └── cv.d.ts
+        └── env.d.ts
+        └── 📁icons
+            └── GitHub.astro
+            └── LinkedIn.astro
+            └── Mail.astro
+            └── Phone.astro
+            └── WorldMap.astro
+            └── X.astro
+        └── 📁layouts
+            └── Layout.astro
+        └── 📁pages
+            └── index.astro
+        └── types.d.ts
+    └── tsconfig.json
+```
