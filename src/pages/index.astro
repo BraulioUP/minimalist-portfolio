@@ -17,30 +17,29 @@ import { basics } from "@cv"
 const { name, label } = basics
 ---
 
-<Layout title= {`Portafolio de ${name} - ${label}`} >
-  <main>
-    <Hero />
-	<About />
-	<Experience />
-	<Education />
-	<Projects />
-	<Skills /> 
-  </main>
-
-
-  <KeyboardManager />
-</Layout>
-
-<script>
-	//se ejecuta en el cliente <---
-</script>
-<style>
-	main{
-		padding: 4rem;
-		margin: auto;
-		width: 100%;
+<Layout title={`Portafolio de ${name} - ${label}`}>
+	<main>
+	  <Hero />
+	  <About />
+	  <Experience />
+	  <Education />
+	  <Projects />
+	  <Skills />
+	</main>
+  
+	<KeyboardManager />
+  </Layout>
+  
+  <style>
+	main {
+	  padding: 4rem;
+	  margin: auto;
+	  width: 100%;
 	}
-
-
-
-</style>
+  
+	@media (width <= 700px) {
+	  main {
+		padding: 1rem;
+	  }
+	}
+  </style>
