@@ -10,9 +10,14 @@ import Hero from "@components/sections/Hero.astro";
 import Projects from "@components/sections/Projects.astro";
 import Skills from "@components/sections/Skills.astro";
 import KeyboardManager from "@components/KeyboardManager.astro";
+
+
+
+import { basics } from "@cv"
+const { name, label } = basics
 ---
 
-<Layout title="minimalist Portafolio">
+<Layout title= {`Portafolio de ${name} - ${label}`} >
   <main>
     <Hero />
 	<About />
@@ -25,6 +30,7 @@ import KeyboardManager from "@components/KeyboardManager.astro";
 
   <KeyboardManager />
 </Layout>
+
 <script>
 	//se ejecuta en el cliente <---
 </script>
