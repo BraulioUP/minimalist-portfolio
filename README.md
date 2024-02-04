@@ -86,49 +86,6 @@ pnpm dev
 ## 🚀 Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
-```
-└── 📁minimalist-portfolio
-    └── .gitignore
-    └── .prettierrc.mjs
-    └── 📁.vscode
-        └── extensions.json
-        └── launch.json
-    └── astro.config.mjs
-    └── cv.json
-    └── package.json
-    └── pnpm-lock.yaml
-    └── 📁public
-        └── favicon.svg
-        └── me.jpg
-    └── README.md
-    └── 📁src
-        └── 📁components
-            └── KeyboardManager.astro
-            └── Section.astro
-            └── 📁sections
-                └── About.astro
-                └── Education.astro
-                └── Experience.astro
-                └── Hero.astro
-                └── Projects.astro
-                └── Skills.astro
-        └── cv.d.ts
-        └── env.d.ts
-        └── 📁icons
-            └── GitHub.astro
-            └── LinkedIn.astro
-            └── Mail.astro
-            └── Phone.astro
-            └── WorldMap.astro
-            └── X.astro
-        └── 📁layouts
-            └── Layout.astro
-        └── 📁pages
-            └── index.astro
-        └── types.d.ts
-    └── tsconfig.json
-```
-
 
 
 1. Abre [**http://localhost:4321**](http://localhost:4321/) en tu navegador para ver el resultado 🚀
