@@ -83,13 +83,13 @@ Edita el archivo `cv.json` para crear tu propio Portafolio/CV imprimible.
 ```bash
 # Disfruta del resultado
 pnpm dev
-
+```
 
 
 ## 🚀 Project Structure
 Inside of your Astro project, you'll see the following folders and files:
 
-```
+```text
 └── 📁minimalist-portfolio
     └── .gitignore
     └── .prettierrc.mjs
