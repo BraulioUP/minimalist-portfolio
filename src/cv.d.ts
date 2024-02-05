@@ -59,6 +59,7 @@ export interface CV {
     endDate: DateStr
     summary: string
     highlights: Highlight
+    
   }
   
   interface Skills {
